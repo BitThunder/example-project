@@ -1,0 +1,9 @@
+comment "Example Project Configuration"
+
+# Add as many dependencies as this BSP requires. I.e. MUST haves for this board.
+# E.g. select SHELL etc.
+
+config PROJECT_DEPENDENCIES
+           bool
+           default      y
+           select       SHELL
